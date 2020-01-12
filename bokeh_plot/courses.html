@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="142e68a4-2adc-40d5-bb24-71c0e188e9e3" data-root-id="11036"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="11461">
+          {"ecfd7296-214c-45f5-8fd8-d18c11d41019":{"roots":{"references":[{"attributes":{"below":[{"id":"11046","type":"CategoricalAxis"}],"center":[{"id":"11049","type":"Grid"},{"id":"11054","type":"Grid"},{"id":"11076","type":"Legend"}],"left":[{"id":"11050","type":"LinearAxis"}],"outline_line_color":{"value":null},"plot_height":300,"plot_width":1500,"renderers":[{"id":"11069","type":"GlyphRenderer"},{"id":"11081","type":"GlyphRenderer"}],"title":{"id":"11037","type":"Title"},"toolbar":{"id":"11058","type":"Toolbar"},"toolbar_location":"above","x_range":{"id":"11035","type":"FactorRange"},"x_scale":{"id":"11042","type":"CategoricalScale"},"y_range":{"id":"11040","type":"DataRange1d"},"y_scale":{"id":"11044","type":"LinearScale"}},"id":"11036","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"tooltips":"$name: @$name person(s)"},"id":"11055","type":"HoverTool"},{"attributes":{},"id":"11056","type":"SaveTool"},{"attributes":{"bottom":{"expr":{"id":"11064","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"11065","type":"Stack"}},"width":{"value":0.8},"x":{"field":"x"}},"id":"11080","type":"VBar"},{"attributes":{"label":{"value":"professor"},"renderers":[{"id":"11069","type":"GlyphRenderer"}]},"id":"11077","type":"LegendItem"},{"attributes":{"callback":null},"id":"11040","type":"DataRange1d"},{"attributes":{},"id":"11057","type":"ResetTool"},{"attributes":{"label":{"value":"student"},"renderers":[{"id":"11081","type":"GlyphRenderer"}]},"id":"11090","type":"LegendItem"},{"attributes":{"fields":[]},"id":"11062","type":"Stack"},{"attributes":{"fields":["professor"]},"id":"11064","type":"Stack"},{"attributes":{"callback":null,"data":{"professor":[5,6,3,2,1,7,3,1,1,1,5,2,1,1,2,1,3,3,3,2,1,2,1,1,3,1,3,1,1,1,1,1,1,1,1,1,1,1,2,1,6,3,1,3,1,1,1,1,1,1,1,1,1,3,2,1,1,2,2,1,1,1,1,1,1,3,1,1,1,1,1,2,1,1,2,1,3,1,1,1,1,1,2,1,1,2,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,3,2,1],"student":[0,0,0,1,0,0,2,0,0,1,0,0,0,0,2,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[["Level_300","11"],["Level_300","18"],["Level_300","104"],["Level_300","124"],["Level_300","146"],["Level_300","147"],["Level_300","165"],["Level_400","8"],["Level_400","20"],["Level_400","21"],["Level_400","24"],["Level_400","27"],["Level_400","28"],["Level_400","30"],["Level_400","38"],["Level_400","41"],["Level_400","44"],["Level_400","48"],["Level_400","49"],["Level_400","51"],["Level_400","52"],["Level_400","53"],["Level_400","57"],["Level_400","62"],["Level_400","68"],["Level_400","75"],["Level_400","80"],["Level_400","82"],["Level_400","89"],["Level_400","93"],["Level_400","97"],["Level_400","110"],["Level_400","118"],["Level_400","122"],["Level_400","125"],["Level_400","126"],["Level_400","128"],["Level_400","137"],["Level_400","143"],["Level_400","148"],["Level_400","151"],["Level_400","157"],["Level_400","159"],["Level_400","161"],["Level_400","164"],["Level_400","174"],["Level_500","0"],["Level_500","1"],["Level_500","2"],["Level_500","3"],["Level_500","4"],["Level_500","7"],["Level_500","9"],["Level_500","12"],["Level_500","13"],["Level_500","14"],["Level_500","15"],["Level_500","16"],["Level_500","19"],["Level_500","23"],["Level_500","29"],["Level_500","32"],["Level_500","34"],["Level_500","36"],["Level_500","39"],["Level_500","40"],["Level_500","46"],["Level_500","50"],["Level_500","61"],["Level_500","63"],["Level_500","64"],["Level_500","66"],["Level_500","67"],["Level_500","71"],["Level_500","74"],["Level_500","76"],["Level_500","77"],["Level_500","79"],["Level_500","84"],["Level_500","88"],["Level_500","91"],["Level_500","98"],["Level_500","101"],["Level_500","103"],["Level_500","108"],["Level_500","115"],["Level_500","116"],["Level_500","117"],["Level_500","119"],["Level_500","120"],["Level_500","121"],["Level_500","123"],["Level_500","129"],["Level_500","132"],["Level_500","134"],["Level_500","136"],["Level_500","138"],["Level_500","139"],["Level_500","141"],["Level_500","144"],["Level_500","149"],["Level_500","150"],["Level_500","153"],["Level_500","156"],["Level_500","158"],["Level_500","160"],["Level_500","162"],["Level_500","166"],["Level_500","167"],["Level_500","168"],["Level_500","170"],["Level_500","172"],["Level_500","173"]]},"selected":{"id":"11089","type":"Selection"},"selection_policy":{"id":"11088","type":"UnionRenderers"}},"id":"11034","type":"ColumnDataSource"},{"attributes":{},"id":"11089","type":"Selection"},{"attributes":{"callback":null,"factors":[["Level_300","11"],["Level_300","18"],["Level_300","104"],["Level_300","124"],["Level_300","146"],["Level_300","147"],["Level_300","165"],["Level_400","8"],["Level_400","20"],["Level_400","21"],["Level_400","24"],["Level_400","27"],["Level_400","28"],["Level_400","30"],["Level_400","38"],["Level_400","41"],["Level_400","44"],["Level_400","48"],["Level_400","49"],["Level_400","51"],["Level_400","52"],["Level_400","53"],["Level_400","57"],["Level_400","62"],["Level_400","68"],["Level_400","75"],["Level_400","80"],["Level_400","82"],["Level_400","89"],["Level_400","93"],["Level_400","97"],["Level_400","110"],["Level_400","118"],["Level_400","122"],["Level_400","125"],["Level_400","126"],["Level_400","128"],["Level_400","137"],["Level_400","143"],["Level_400","148"],["Level_400","151"],["Level_400","157"],["Level_400","159"],["Level_400","161"],["Level_400","164"],["Level_400","174"],["Level_500","0"],["Level_500","1"],["Level_500","2"],["Level_500","3"],["Level_500","4"],["Level_500","7"],["Level_500","9"],["Level_500","12"],["Level_500","13"],["Level_500","14"],["Level_500","15"],["Level_500","16"],["Level_500","19"],["Level_500","23"],["Level_500","29"],["Level_500","32"],["Level_500","34"],["Level_500","36"],["Level_500","39"],["Level_500","40"],["Level_500","46"],["Level_500","50"],["Level_500","61"],["Level_500","63"],["Level_500","64"],["Level_500","66"],["Level_500","67"],["Level_500","71"],["Level_500","74"],["Level_500","76"],["Level_500","77"],["Level_500","79"],["Level_500","84"],["Level_500","88"],["Level_500","91"],["Level_500","98"],["Level_500","101"],["Level_500","103"],["Level_500","108"],["Level_500","115"],["Level_500","116"],["Level_500","117"],["Level_500","119"],["Level_500","120"],["Level_500","121"],["Level_500","123"],["Level_500","129"],["Level_500","132"],["Level_500","134"],["Level_500","136"],["Level_500","138"],["Level_500","139"],["Level_500","141"],["Level_500","144"],["Level_500","149"],["Level_500","150"],["Level_500","153"],["Level_500","156"],["Level_500","158"],["Level_500","160"],["Level_500","162"],["Level_500","166"],["Level_500","167"],["Level_500","168"],["Level_500","170"],["Level_500","172"],["Level_500","173"]],"range_padding":0.01},"id":"11035","type":"FactorRange"},{"attributes":{"text":"Courses that teached by professors and students"},"id":"11037","type":"Title"},{"attributes":{"data_source":{"id":"11034","type":"ColumnDataSource"},"glyph":{"id":"11079","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"student","nonselection_glyph":{"id":"11080","type":"VBar"},"selection_glyph":null,"view":{"id":"11082","type":"CDSView"}},"id":"11081","type":"GlyphRenderer"},{"attributes":{"bottom":{"expr":{"id":"11064","type":"Stack"}},"fill_color":{"value":"cyan"},"line_color":{"value":"cyan"},"top":{"expr":{"id":"11065","type":"Stack"}},"width":{"value":0.8},"x":{"field":"x"}},"id":"11079","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"11062","type":"Stack"}},"fill_color":{"value":"magenta"},"line_color":{"value":"magenta"},"top":{"expr":{"id":"11063","type":"Stack"}},"width":{"value":0.8},"x":{"field":"x"}},"id":"11067","type":"VBar"},{"attributes":{"items":[{"id":"11077","type":"LegendItem"},{"id":"11090","type":"LegendItem"}]},"id":"11076","type":"Legend"},{"attributes":{"source":{"id":"11034","type":"ColumnDataSource"}},"id":"11070","type":"CDSView"},{"attributes":{},"id":"11044","type":"LinearScale"},{"attributes":{},"id":"11042","type":"CategoricalScale"},{"attributes":{},"id":"11088","type":"UnionRenderers"},{"attributes":{"axis_label":"Course (Level -- course_id)","formatter":{"id":"11075","type":"CategoricalTickFormatter"},"major_label_orientation":1.5707963267948966,"subgroup_label_orientation":1.5707963267948966,"ticker":{"id":"11047","type":"CategoricalTicker"}},"id":"11046","type":"CategoricalAxis"},{"attributes":{},"id":"11051","type":"BasicTicker"},{"attributes":{},"id":"11047","type":"CategoricalTicker"},{"attributes":{"data_source":{"id":"11034","type":"ColumnDataSource"},"glyph":{"id":"11067","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"professor","nonselection_glyph":{"id":"11068","type":"VBar"},"selection_glyph":null,"view":{"id":"11070","type":"CDSView"}},"id":"11069","type":"GlyphRenderer"},{"attributes":{},"id":"11073","type":"BasicTickFormatter"},{"attributes":{"grid_line_color":null,"ticker":{"id":"11047","type":"CategoricalTicker"}},"id":"11049","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"11055","type":"HoverTool"},{"id":"11056","type":"SaveTool"},{"id":"11057","type":"ResetTool"}]},"id":"11058","type":"Toolbar"},{"attributes":{},"id":"11075","type":"CategoricalTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"11051","type":"BasicTicker"}},"id":"11054","type":"Grid"},{"attributes":{"bottom":{"expr":{"id":"11062","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"11063","type":"Stack"}},"width":{"value":0.8},"x":{"field":"x"}},"id":"11068","type":"VBar"},{"attributes":{"fields":["professor"]},"id":"11063","type":"Stack"},{"attributes":{"axis_label":"Number of professors/students","formatter":{"id":"11073","type":"BasicTickFormatter"},"ticker":{"id":"11051","type":"BasicTicker"}},"id":"11050","type":"LinearAxis"},{"attributes":{"source":{"id":"11034","type":"ColumnDataSource"}},"id":"11082","type":"CDSView"},{"attributes":{"fields":["professor","student"]},"id":"11065","type":"Stack"}],"root_ids":["11036"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('11461').textContent;
+                  var render_items = [{"docid":"ecfd7296-214c-45f5-8fd8-d18c11d41019","roots":{"11036":"142e68a4-2adc-40d5-bb24-71c0e188e9e3"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
